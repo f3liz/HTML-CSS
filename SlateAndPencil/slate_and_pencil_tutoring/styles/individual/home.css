@@ -1,0 +1,50 @@
+/*
+CSS code for home page of Slate & Pencil Tutoring
+Author: Felix Chen
+Date: 08/22/23
+File name: home.css
+*/
+
+main {
+  margin-top: 50px;
+  margin-right: 100px;
+  margin-left: 100px;
+  margin-bottom: 20px;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas:
+    "one     two     three"
+    ".       four    .";
+}
+
+section:nth-child(1) {
+  grid-area: one;
+}
+
+section:nth-child(2) {
+  grid-area: two;
+}
+
+section:nth-child(3) {
+  grid-area: three;
+}
+
+section:nth-child(4) {
+  grid-area: four;
+}
+
+section img {
+  width: 40%;
+  padding-bottom: 10px;
+  margin-left: 52px;
+}
+
+section p {
+  width: 80%;
+  margin: 0 auto;
+  padding-bottom: 45px;
+  color: rebeccapurple;
+}

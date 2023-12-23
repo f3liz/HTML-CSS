@@ -1,0 +1,55 @@
+/*
+CSS code for styling
+Author: Felix Chen
+Date: 08/22/23
+File name: styles.css
+*/
+
+html {
+  background-color: #f8d175;
+}
+
+body {
+  background-color: #faeeda;
+  font-family: Verdana, Geneva, Arial, sans-serif;
+}
+
+nav.vertical {
+  background-color: #4d98ec;
+  line-height: 1.5em;
+}
+
+nav.vertical a {
+  font-size: 1em;
+  margin: 0.4em 0;
+  padding: 15px;
+}
+
+nav.vertical a:link,
+nav.vertical a:visited {
+  color: #f5f1f1ff;
+}
+
+nav.horizontal ul li {
+  background-color: #09111f;
+  font-size: 0.9em;
+  padding: 10px 0;
+  text-align: center;
+}
+
+nav.horizontal a:link,
+nav.horizontal a:visited {
+  color: #f5f1f1ff;
+}
+
+a {
+  text-decoration: none;
+}
+
+footer {
+  color: #f5f1f1ff;
+  background-color: #09111f;
+  font-size: 0.9em;
+  padding: 10px 0px;
+  text-align: center;
+}

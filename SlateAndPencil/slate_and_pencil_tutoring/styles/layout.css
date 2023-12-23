@@ -1,0 +1,65 @@
+/*
+CSS for layout of all pages
+Author: Felix Chen
+Date: 08/22/23
+File name: layout.css
+*/
+
+body {
+  margin-bottom: 15px;
+  margin-left: 10px;
+  margin-right: 10px;
+  max-width: 2000px;
+  min-width: 600px;
+}
+
+body {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas:
+    "image      vertical"
+    "horizontal horizontal"
+    "main       main"
+    "foot       foot";
+}
+
+img {
+  grid-area: image;
+}
+
+nav.vertical {
+  grid-area: vertical;
+}
+
+nav.horizontal {
+  grid-area: horizontal;
+}
+
+main {
+  grid-area: main;
+}
+
+footer {
+  grid-area: foot;
+}
+
+img {
+  display: block;
+  width: 135%;
+}
+
+body nav.vertical {
+  margin-left: 35%;
+  width: 65%;
+}
+
+nav.vertical a {
+  display: block;
+  width: 100%;
+}
+
+nav.horizontal > ul > li {
+  display: block;
+  width: 12.5%;
+  float: left;
+}
