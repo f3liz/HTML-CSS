@@ -1,0 +1,113 @@
+/*
+    Defines all remaining styles for the Red Ball Pizza web page.
+
+    Author: Felix Chen
+    Date: 08/11/23
+    File: other.css
+ */
+
+body {
+  background-image: url("../images/parlor.jpg");
+  background-size: cover;
+}
+
+header > img {
+  width: 1200px;
+  height: 235px;
+  object-fit: cover;
+}
+
+.horizontal {
+  padding-top: 25px;
+  padding-left: 20px;
+}
+
+main {
+  border-left: 5px solid rgba(154, 20, 23, 1);
+  border-right: 5px solid rgba(154, 20, 23, 1);
+  background-color: white;
+}
+
+article p {
+  text-align: left;
+  padding: 10px 10px 0 20px;
+  margin-left: 10px;
+  margin-right: 10px;
+  line-height: 1.5;
+}
+
+#deals {
+  display: grid;
+  gap: 15px;
+  margin-bottom: 30px;
+}
+
+#deals div {
+  border: 4px dashed #9a1417;
+}
+
+#deals div p:nth-child(2) {
+  margin: 15px;
+}
+
+#deals div p:nth-child(4) {
+  margin-top: 20px;
+}
+
+p:nth-child(3) {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+div:nth-child(odd) {
+  background-color: #fec2c6;
+}
+
+div:nth-child(even) {
+  background-color: #e7e7e7;
+}
+
+#deals div p {
+  margin: 10px;
+}
+
+aside h1 {
+  font-weight: bold;
+}
+
+aside ul > li {
+  background: linear-gradient(to right, #e7e7e7, 70%, #d0676e);
+  border: 2px solid #9a1417;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 15px 20px 15px;
+  box-shadow: 10px 10px 9px #afabaa;
+}
+
+.vertical ul > li {
+  background: linear-gradient(to right, #b41c36, transparent, 200%, #e7e7e7);
+  border-top-left-radius: 5px;
+  border-bottom-left-radius: 5px;
+  margin: 8px 5px 8px 20px;
+  padding: 7px 0px 7px 5px;
+}
+
+.vertical ul {
+  margin-top: 40px;
+}
+
+.vertical a:link {
+  color: white;
+}
+
+.vertical a:visited {
+  color: white;
+}
+
+.vertical a:hover {
+  color: #e7e7e7;
+}
+
+.vertical a:active {
+  color: coral;
+}
