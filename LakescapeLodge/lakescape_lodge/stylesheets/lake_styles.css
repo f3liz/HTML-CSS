@@ -1,0 +1,151 @@
+﻿/*
+CSS code to style lake_home.html
+Author: Felix Chen
+Date: 7/27/23
+File name: lake_styles.css
+*/
+
+body {
+  background-color: #7ba8c0;
+}
+
+nav {
+  background-color: #183642;
+}
+
+body > section#leftcol {
+  margin-right: 0;
+}
+
+body > section#rightcol {
+  width: 30%;
+  margin-right: 0;
+  padding-bottom: 33.5%;
+}
+
+#leftcol {
+  background-color: #ddd8c4;
+  padding-left: 30px;
+  padding-bottom: 20px;
+  margin-right: 0;
+}
+
+#leftcol h1 {
+  font-family: serif;
+  font-size: 40px;
+}
+
+#leftcol p {
+  font-size: 16.5px;
+  font-family: sans-serif;
+  padding-right: 30px;
+  padding-left: 15px;
+  text-align: left;
+}
+#rightcol {
+  background-color: #6d4c3d;
+  font-size: 15px;
+  padding-left: 40px;
+  margin-right: 100px;
+}
+
+#events {
+  background-color: #7d8cc4;
+  border: 1px solid black;
+  border-radius: 10px;
+  padding-left: 15px;
+}
+
+#notes {
+  background-color: #00a676;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+#notes h2 {
+  padding-left: 15px;
+}
+
+footer {
+  background-color: #183642;
+  color: #e9fdf2;
+  text-align: center;
+}
+
+a:link {
+  color: #e9fdf2;
+  text-decoration: none;
+  font-family: sans-serif;
+}
+
+a:visited {
+  color: #e9fdf2;
+}
+
+a:hover {
+  color: black;
+  text-decoration: underline;
+}
+
+a:active {
+  color: coral;
+  text-decoration: underline dotted;
+}
+
+section > h2 {
+  color: #ddd8c4;
+  font-family: serif;
+  font-weight: lighter;
+  font-size: 35px;
+  margin-left: 15px;
+}
+
+ul {
+  list-style: none;
+}
+
+.first {
+  font-weight: bold;
+}
+
+blockquote {
+  color: #e9fdf2;
+}
+
+blockquote span {
+  text-decoration: underline;
+}
+
+#notes a {
+  text-decoration: underline;
+}
+
+#notes ul {
+  list-style: square;
+  font-family: sans-serif;
+  font-size: 15px;
+  padding-right: 10px;
+}
+
+#events p {
+  font-family: sans-serif;
+  font-size: 15px;
+  padding-left: 30px;
+  padding-bottom: 10px;
+  padding-top: 5px;
+}
+
+em {
+  font-style: italic;
+}
+
+#events h3 {
+  font-family: sans-serif;
+  font-weight: 500;
+}
+
+blockquote {
+  padding-top: 20px;
+  font-size: 17px;
+  margin-left: 7px;
+}
